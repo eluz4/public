@@ -21,13 +21,6 @@ local healthBarEnabled = false
 local nameESPEnabled = false
 local teamFilterEnabled = false
 
-local boxConnection
-local chamsUpdateConnection
-local tracerConnection
-local skeletonConnection
-local healthBarConnection
-local nameESPConnection
-
 local function getPlayerColor(plr)
     local teamColor = (plr.Team and plr.Team.TeamColor.Color) or Color3.fromRGB(18, 233, 226)
     if teamColor == Color3.new(1, 1, 1) then
